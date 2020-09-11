@@ -11,6 +11,8 @@ import java.util.Scanner;
 
 public class Main {
 
+    private static Object Scanner;
+
     public static void main(String[] args) {
 
         String myString1 = "Hi";
@@ -44,7 +46,7 @@ public class Main {
         Lab2
         Author: Ellie Zhou
         Date: 9/10
-
+        */
 
 
         Scanner myScanner = new Scanner(System.in);
@@ -61,7 +63,7 @@ public class Main {
         System.out.println(myScannedInput2);
         System.out.println("5666 days, "+myScannedInput2);
 
-         */
+
 
 
         /**
@@ -72,6 +74,7 @@ public class Main {
 
         /*
         ProblemI
+         */
 
         String myStringfirstname = "Huamei";
         String myStringenglishname = "Ellie";
@@ -96,7 +99,7 @@ public class Main {
         int myScannedInputage = myScanner4.nextInt();
         int counter = 2020;
         counter = counter - myScannedInputage;
-        System.out.println("You are "+counter+" years old.");
+        System.out.println("You are " + counter + " years old.");
 
 
         /*
@@ -104,26 +107,21 @@ public class Main {
          */
 
 
-
         Scanner myScanner5 = new Scanner(System.in);
         String myScannedInput3 = myScanner5.nextLine();
-        if(myScannedInput3.equals("Ellie")){
-            System.out.println(myScannedInput3+"--first name.");
-        }else{
-            System.out.println(myScannedInput3+"--last name.");
+        if (myScannedInput3.equals("Ellie")) {
+            System.out.println(myScannedInput3 + "--first name.");
+        } else {
+            System.out.println(myScannedInput3 + "--last name.");
         }
-
-
 
         Scanner myScanner6 = new Scanner(System.in);
         String myScannedInput4 = myScanner6.nextLine();
-        if(myScannedInput4.equals("Zhou")){
-            System.out.println(myScannedInput4+"--last name.");
-        }else{
-            System.out.println(myScannedInput4+"--first name.");
+        if (myScannedInput4.equals("Zhou")) {
+            System.out.println(myScannedInput4 + "--last name.");
+        } else {
+            System.out.println(myScannedInput4 + "--first name.");
         }
-
-
 
 
 
@@ -152,16 +150,19 @@ public class Main {
 
         /*
         Problem VII
-         */
 
 
         Scanner myScanner8 = new Scanner(System.in);
-        int myScannedInput6 = myScanner8.nextInt();
+        System.out.println("type your first number");
         int number = 2;
-        int myScannedNumber = myScannedInput6;
-        int result = myScannedNumber = myScannedInput6;
+        int myScannedInput6 = myScanner8.nextInt();
+        int result = myScannedInput6 / number;
+        Scanner myScanner13 = new Scanner(System.in);
+        System.out.println("type you second number");
         double counter3 = 2.5;
-        int counter4 = 3;
+        int result1 = myScannedInput6 /
+
+
 
 
         /*
@@ -172,6 +173,7 @@ public class Main {
         if (myScannedInput7.equals("Ellie")) {
             System.out.println(myScannedInput7 + "--success.");
         }
+
         Scanner myScanner10 = new Scanner(System.in);
         String myScannedInput8 = myScanner10.nextLine();
         if (myScannedInput8.equals("Elizabeth")) {
@@ -189,9 +191,9 @@ public class Main {
              */
 
 
-        /*
-        ProblemX
-         */
+    /*
+    ProblemX
+     */
         Scanner myScanner12 = new Scanner(System.in);
         int myScannedInput10 = myScanner12.nextInt();
 
@@ -201,3 +203,5 @@ public class Main {
         // write your code here
     }
 }
+
+
