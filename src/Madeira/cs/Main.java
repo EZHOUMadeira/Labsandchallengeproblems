@@ -92,7 +92,14 @@ public class Main {
          * Author: Ellie Zhou
          * 9/10
          */
+        /*
+            Ellie -
+            Good effort here. I liked your use of if/else statements. Try prompting the user more often & be clear
+            about exactly what the problem is asking you to do.
 
+            5/5 challenge
+            2.25/5 extra credit
+         */
         /*
         ProblemI
          */
